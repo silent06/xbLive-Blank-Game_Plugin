@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Hooking.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemHooks.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleHooks.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="natives.cpp">
+      <Filter>Security</Filter>
+    </ClCompile>
+    <ClCompile Include="nativeInvoker.cpp">
+      <Filter>Security</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>Security</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Games</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Hooking.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemHooks.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleHooks.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="natives.h">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="nativeInvoker.h">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Games</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Config.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{abb2e88f-6b51-4346-8770-c82820c41c0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{f837f2ab-f629-4975-a993-0c5c4414010a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security">
+      <UniqueIdentifier>{a91561b5-b8ea-4862-b037-a521fa31f34e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games">
+      <UniqueIdentifier>{57ca66cb-5f1e-4562-bb6a-f4f146aff526}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

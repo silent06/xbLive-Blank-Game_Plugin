@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1758
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XBLive_Plugin", "XBLive Plugin.vcxproj", "{E6DEBC9D-223A-4663-A849-2FA54079DFF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		XBLive B03|Xbox 360 = XBLive B03|Xbox 360
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6DEBC9D-223A-4663-A849-2FA54079DFF2}.XBLive B03|Xbox 360.ActiveCfg = XBLive_Plugin|Xbox 360
+		{E6DEBC9D-223A-4663-A849-2FA54079DFF2}.XBLive B03|Xbox 360.Build.0 = XBLive_Plugin|Xbox 360
+		{E6DEBC9D-223A-4663-A849-2FA54079DFF2}.XBLive B03|Xbox 360.Deploy.0 = XBLive_Plugin|Xbox 360
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA63F969-70F4-4E52-A1DD-D1ABB7F378F1}
+	EndGlobalSection
+EndGlobal
